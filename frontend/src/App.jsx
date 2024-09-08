@@ -1,5 +1,6 @@
 
 import './App.css'
+import Footer from './Customer/Components/footer/Footer'
 import Navbar from './Customer/Components/Navbar/Navbar'
 import HomePage from './Customer/Pages/HomePage/HomePage'
 
@@ -12,7 +13,7 @@ function App() {
     <div>
       <HomePage/>
     </div>
-      <h1>hello</h1>
+      <Footer/>
     </div>
   )
 }

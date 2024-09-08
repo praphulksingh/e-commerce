@@ -4,7 +4,7 @@ import { MainCarouselData } from './MainCarouselData';
 import 'react-alice-carousel/lib/alice-carousel.css';
 
 const MainCarousel = () => {
-    const items = MainCarouselData.map((items)=> <img className='cursor-pointer w-screen h-[400px]' role='presentation' src={items.image} alt="" /> )
+    const items = MainCarouselData.map((items)=> <img className='cursor-pointer w-screen h-[400px] -z-10' role='presentation' src={items.image} alt="" /> )
 
   return (
     <AliceCarousel
